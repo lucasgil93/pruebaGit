@@ -22,9 +22,9 @@ public class Mainsito {
 			} else if (numero == 3) {
 				System.out.println("Fin del programa.");
 			} else if (numero == 2) {
-				System.out.println("No se saluda");
+				System.out.println("No se le saluda");
 			} else {
-				System.out.println("Numero Erroneo.");
+				System.out.println("Numero Incorrecto, intentelo otra vez.");
 			}
 		} while (numero != 3);
 		teclado.close();
